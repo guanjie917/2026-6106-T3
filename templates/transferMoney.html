@@ -9,10 +9,10 @@
         <input type = "text" id="payee" placeholder="Enter Payee Address">
         <input type = "text" id="amount" placeholder="Enter Payer Address">
         <button class="btn" onclick="transfer()">Transfer</button>
+        <form action="/main" method="post">
+            <input type="submit" value=Main>
+        </form>
 
-        <from action = "/main" method = "post">
-            <input type = "submit" value = "Main">
-        </from>
         <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
         <script>
             const contractAddress = "0xadd5b5e5813793359c52540830a045b8f44be5fc";
