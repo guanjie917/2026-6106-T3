@@ -1,14 +1,15 @@
 <head>
-    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <meta name=""viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
 </head>
+
 <body>
     <div class="container">
-        <h2>Welcome to SC6016 Web3 Application</h2>
+        <h2>Welcome to 6106 Web DApp</h2>
         <p>Please enter your user name</p>
-        <from action = "/main" method = "post">
-            <input type = "text" name = "q">
-            <input type = "submit" value = "Enter" >
-        </from>
+        <form action="/main" method="post">
+            <input type="text" name="q">
+            <input type="submit" value="Enter">
+        </form>
     </div>
 </body>
