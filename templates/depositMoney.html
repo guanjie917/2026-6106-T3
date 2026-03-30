@@ -73,7 +73,7 @@
             }
 
             async function view_transaction() {
-                result = await contract.methods.deposit_view().call();
+                result = await contract.methods.reansaction().call();
                 console.log(result[0], result[1]);
 
                 document.getElementById("view_depositor").innerText = "Payer : " + result[0];
